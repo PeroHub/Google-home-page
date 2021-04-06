@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.image a:hover {
+    text-decoration: underline;
+}
+
+.gmail a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.gmail a:hover{
+    text-decoration: underline;
+}
+/* h5, p {
+    font-family: arial,sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+} */
+
+.nav-item {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    position: relative;
+    left: 1000px;
+    margin-left: 200px;
+}
+    
+
+.container-cover {
+    display: flex;
+}
+    
+.container-cover {
+    margin:  15px 15px;
+    padding: 0 10px;
+
+}   
+
+.svg {
+    height: 30px;
+    width: 30px;
+    margin: 0 20px;
+    margin-top: 6px;
+    color: rgba(0,0,0,0.87);
+}
+
+path {
+    fill: rgba(0,0,0,0.87);;
+}
+
+.gmail {
+    margin: 0 10px;
+    margin-top: 6px;
+}
+
+.image {
+    margin: 0 10px;
+    margin-top: 6px;
+}
+
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100px;
+    height: 35px;
+    border: 1px solid transparent;
+    background-color: #1a73e8;
+    color: #fff;
+    letter-spacing: .25px;
+    line-height: 16px;
+    cursor: pointer;
+    
+    
+}
+
+.button button:hover{
+    
+    background-color: #3c79ca;
+    transition: 0.4s;
+}
+
+/* Main Section Style */
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 30px;
+    margin:  0 auto;
+    width: 700px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+.googleimage img {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    object-position: center bottom;
+}
+
+.inputfield {
+    margin-top: -10px;
+}
+
+.inputfield input {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    text-transform: none;
+    word-spacing: normal;
+    text-shadow: none;
+    text-indent: 40px;
+    border: 1px solid rgb(231, 228, 228);
+}
+
+.inputfield input:focus {
+    border: 1px solid rgb(231, 228, 228);
+    border-radius: 30px;
+    outline: none;
+}
+
+.inputfield input:hover {
+    border: 1px solid rgb(231, 228, 228);
+    box-shadow: 10px rgb(231, 228, 228);
+}
+
+.parafield {
+    display: flex;
+    margin: 23px 0;
+}
+
+.parafield p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px 8px;
+    background-color: #f8f9fa;
+    padding: 8px 12px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    height: 30px;
+    color: #3c4043;
+}
+
+
+
+.parafield2 p {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.parafield2 span {
+    color:  blue;
+}
+
+/*** Main Section Style *****/
+
+/* Input Field Design with the svg alignment */
+.mesurement {
+    height: 20px;
+    width: 20px;
+}
+
+.man {
+    fill: rgb(66, 133, 244);
+}
+
+.wowo {
+    fill: rgb(52, 168, 83);
+}
+
+.orange {
+    fill: rgb(244, 180, 0);
+}
+
+.papa {
+    fill: rgb(234, 67, 53);
+}
+
+.resize {
+    width: 20px;
+    height: 21px;
+    
+}
+
+.inputfield .mesurement svg {
+    position: relative;
+    top: 30px;
+    left: 10px;
+    
+}
+
+.inputfield .mesurement .kolor {
+    fill: rgb(165, 159, 159);
+}
+
+.inputfield .resize svg {
+    position: relative;
+    left: 460px;
+    top: -32px;
+}
+
+/* xxxxxxx Input Field Design with the svg alignment xxxxxxxxxxxx*/
+
+
+/* Footer design */
+
+footer {
+    margin-top: 130px;
+    
+}
+
+.footer-items-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.footer-container {
+    background-color: #f2f2f3;
+    height: 80px;
+    padding: 10px;
+}
+
+.footer-items img {
+    height: 15px;
+    width: 10px;
+    margin: 0 5px;
+    position: relative;
+    top: 2px;
+}
+
+.footer-container .parag p {
+    margin-left: 18px;
+    color: rgba(88, 81, 81, 0.87);
+}
+
+
+hr {
+    margin: 10px -10px;
+    padding: 0;
+    font-weight: normal;
+    border-style: inset;
+    border: 0.5px solid rgb(219, 216, 216);
+    
+}
+
+.footer-items-container .footer-items a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: rgba(88, 81, 81, 0.87);
+    font-weight: normal;
+    line-height: 13px;
+    font-size: 14px;
+}
+
