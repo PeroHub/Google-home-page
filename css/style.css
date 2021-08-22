@@ -279,3 +279,76 @@ hr {
     font-size: 14px;
 }
 
+@media screen and (max-width: 768px) {
+
+    main, header, footer {
+        overflow-x: hidden;
+    }
+
+    .nav-item {
+        left: -210px;
+    }
+
+    .footer-container .parag {
+        margin-top: 35px;
+    }
+
+    .main-container {
+        margin: 0;
+        justify-content: start;
+    }
+
+    .googleimage {
+        position: relative;
+        right: 160px;
+    }
+
+    .inputfield {
+        position: relative;
+        right: 24.2%;
+        width: 50%;
+    }
+
+    .inputfield input {
+        width: 100%;
+    }
+
+    .parafield, .parafield2 {
+        position: relative;
+        right: 25%;
+    }
+
+    .footer-container {
+        
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .footer-items-container {
+        width: 50%;
+        flex-direction: column;
+        height: inherit;
+        
+    }
+
+    .footer-items-container .done {
+        margin: 0 20px;
+        width: 150px;
+        height: 100px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-items-container .footer-items a {
+        font: 1.2em;
+        margin: 5px 0px;
+    }
+}
+
