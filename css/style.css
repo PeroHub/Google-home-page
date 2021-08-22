@@ -281,6 +281,9 @@ hr {
 
 @media screen and (max-width: 768px) {
 
+    main, header, footer {
+        overflow-x: hidden;
+    }
 
     .nav-item {
         left: -210px;
